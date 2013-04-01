@@ -1,0 +1,66 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage[left=1in, right=1in, top=1in,bottom=1in]{geometry}
+
+\newcommand{\doglobally}[1]{{\globaldefs=1#1}}
+
+
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+\begin{document}
+{\Large
+\[ 
+\begin{array}{l}
+P(y|x) = ?\\
+P(DeerPos_{t+1} | state_t) = ?
+\end{array}
+\]
+%\begin{align*}
+%
+%\end{align*}
+
+\[ 
+\begin{array}{l}
+\displaystyle\argmax_x \left[ P(y|x)=z \right] = ?\\
+\displaystyle\argmax_{state} [P(DeerPos=\textnormal{UnderTrap} | state)] = ?
+\end{array}
+\]
+
+\[ 
+\begin{array}{l}
+P(y|\mathbf{do}(x)) = ?\\
+P(DeerPos=\textnormal{UnderTrap} | \textbf{do}(noise)) = ?
+\end{array}
+\]
+
+\[
+P(rain_{t+1} | conditions_t) = ?
+\]
+
+
+\[
+\argmax_{conditions} [P(harvest=small | conditions)] = ?
+\]
+
+\[
+P(harvest=big | \textbf{do}(watering)) = ?
+\]
+
+
+\[
+P(DeerPos_{t+1} | state_t) = ?
+\]
+
+
+\[
+\argmax_{state} [P(DeerPos=\textnormal{UnderTrap} | state)] = ?
+\]
+
+\[
+P(DeerPos=\textnormal{UnderTrap} | \textbf{do}(noise)) = ?
+\]
+
+}
+\end{document}
