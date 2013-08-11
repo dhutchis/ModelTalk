@@ -15,7 +15,5 @@ Questions of discourse, copied from first slide:
 2. 7 August 2013 -- [Sandia](http://www.sandia.gov "Sandia National Laboratories") Technical Seminar
 
 ### Thanks
-to Gerardo Santacruz and Daniel Katz.  I owe the talk to ideas and inspirations from our discussions.
+to Gerardo Santacruz and Daniel Katz.  I owe the talk to ideas and inspirations generated from our discussions.
 
-### Todo
-Turing machine limit -- cannot solve the halting problem
